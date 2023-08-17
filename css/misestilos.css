@@ -1,0 +1,64 @@
+body{
+    font-family: 'Bangers', cursive;
+}
+
+.contenedor{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.titulo{
+    font-size: 40px;
+    color: gray;
+    font-weight: 200;
+}
+
+.encabezado{
+    width: 100%;
+    height: 80px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.informacion{
+    width: 100%;
+    height: calc(100vh - 80px);
+    background: blue;
+    display: flex;
+}
+
+.articulos{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow-y: scroll;
+}
+
+.menu {
+    width: 25%;
+    height: 100%;
+    background: red;
+}
+
+.nota{
+    width: 40%;
+    height: 100px;
+    background: violet;
+    margin: 3px;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 10px;
+    padding: px;
+    border-width: 1px;
+}
+
+.nota:hover{
+    background: yellow;
+}
